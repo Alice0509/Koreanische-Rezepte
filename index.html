@@ -1,109 +1,107 @@
 <!doctype html>
 <html lang="de">
-  <head>
-    <!-- Google tag (gtag.js) -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-5GKGCMDCJ8"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
-
-  gtag('config', 'G-5GKGCMDCJ8');
-</script>
+<head>
     <meta charset="utf-8">
-    <meta name="description" content="Entdecken Sie authentische koreanische Rezepte, die mit Liebe und Hingabe von einer Mutter weitergegeben werden. Perfekt für alle, die traditionelle koreanische Küche lieben.">
-    <title>Authentische Koreanische Rezepte</title>
-    <meta name="author" content="Joan">
     <title>Authentische Koreanische Rezepte | Mit dem Herzen einer Mutter</title>
-  </head>
-  <body>
+    <meta name="description" content="Entdecken Sie authentische koreanische Rezepte, die mit Liebe und Hingabe von einer Mutter weitergegeben werden.">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"> <!-- Font Awesome for the search icon -->
+</head>
+
+<body>
     <h1><a href="index.html">Mit dem Herzen einer Mutter: Koreanische Rezepte für die Seele</a></h1>
-       
 
-
-    <div style="float: left; width: 200px; padding: 10px;">
-        <h3>Menü</h3>
-        <ul>
-            <li><a href="1.html">Danpatbbang (단팥빵)</a></li>
-            <li><a href="2.html">Soboro-Brot (소보로빵)</a></li>
-            <li><a href="">Kimchi gebratener Reis (김치볶음밥)</a></li>
-            <li><a href="">Schokoladenkekse (초코칩쿠키)</a></li>
-            <li><a href="">Pekannusskuchen (피칸파이)</a></li>
-            <li><a href="">Scharfes Rindfleischsuppen (파육개장)</a></li>
-        </ul>
+    <div id="searchContainer">
+        <i class="fas fa-search icon"></i>
+        <input type="text" id="searchInput" placeholder="Menüelement suchen..." onkeyup="filterMenu()">
     </div>
 
-    <input type="checkbox">
-    <input type="checkbox">
-    <input type="checkbox">
-
-    <p>
-        <h2>Rotes Bohnenbrot (단팥빵)</h2>
-    </p>
-    <p style="margin-top: 45px;">
-        <strong>[Zutaten]</strong><br>
-        Weizenmehl (Typ 550) 200 g<br>
-        Trockenhefe 4 g<br>
-        Salz 3 g<br>
-        Zucker 30 g<br>
-        Butter 30 g<br>
-        Ei (Größe S oder M) 1 Stück<br>
-        Milch 70 g<br>
-        <a href="https://search.yahoo.com/search?fr=mcafee&type=E211KR885G0&p=Rote+Bohnenpaste">Rote Bohnenpaste (Anko,팥앙금) 320 g </a>
-     </p>
-    <div style="text-align: center;">
-        <img width="100%" src="coding1.jpg" alt="Rotes Bohnenbrot">
+    <div class="menu-container">
+        <div id="menuList" class="menu-list">
+            <div class="menu-card">
+                <a href="1.html">
+                    <img src="coding1.jpg" alt="단팥빵">
+                    <p>Danpatbbang (단팥빵)</p>
+                </a>
+            </div>
+            <div class="menu-card">
+                <a href="2.html">
+                    <img src="coding2.jpeg" alt="Soboro-Brot">
+                    <p>Soboro-Brot (소보로빵)</p>
+                </a>
+            </div>
+            <div class="menu-card">
+                <a href="3.html">
+                    <img src="kimchi_fried_rice.jpg" alt="Kimchi gebratener Reis">
+                    <p>Kimchi gebratener Reis (김치볶음밥)</p>
+                </a>
+            </div>
+            <div class="menu-card">
+                <a href="4.html">
+                    <img src="chocolate_chip_cookie.jpg" alt="Schokoladenkekse">
+                    <p>Schokoladenkekse (초코칩쿠키)</p>
+                </a>
+            </div>
+            <div class="menu-card">
+                <a href="5.html">
+                    <img src="pecan_pie.jpg" alt="Pekannusskuchen">
+                    <p>Pekannusskuchen (피칸파이)</p>
+                </a>
+            </div>
+            <div class="menu-card">
+                <a href="6.html">
+                    <img src="spicy_beef_soup.jpg" alt="Scharfes Rindfleischsuppen">
+                    <p>Scharfes Rindfleischsuppen (파육개장)</p>
+                </a>
+            </div>
+        </div>
     </div>
-    <div style="text-align: center;">
-      <p>Schauen Sie sich dieses tolle Video an, in dem gezeigt wird, wie man Rote Bohnenpaste (Anko,팥앙금) aus der MBN-Sendung herstellt!</p>
-      <iframe width="600" height="338" 
-              src="https://www.youtube.com/embed/A6VrDRL3qzQ" 
-              title="(앙버터떡) 냄비 하나로 끝?! 팥앙금 만드는 비법 공개 MBN 211219 방송" 
-              frameborder="0" 
-              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
-              referrerpolicy="strict-origin-when-cross-origin" 
-              allowfullscreen>
-      </iframe>
-  </div>
 
-            <p><strong>[Schritte]</strong></p>
-            <ol>
-             
-                    <li>In eine Schüssel lauwarme Milch und Ei geben, dann Weizenmehl, Zucker, Salz, Backpulver und Hefe abmessen und hinzufügen. Dabei das Ei verquirlen und etwas davon aufbewahren, bevor es in die Schüssel kommt.</li>
-                    <li>Sobald sich der Teig im Teigkneter zu einer Kugel formt, Butter hinzufügen und weiterkneten.</li>
-                    <li>Den Teig für die erste Gärung etwa 50 Minuten ruhen lassen.</li>
-                    <li>Währenddessen die Rote Bohnenpaste (Anko) in 40 g große Kugeln formen und bereitstellen.</li>
-                    <li>Nach der ersten Gärung den Teig durchkneten, um die Luft herauszulassen, und in 8 Stücke teilen. Den Teig mit Folie abdecken und etwa 10 Minuten für die Zwischenruhe ruhen lassen.</li>
-                    <li>Nach der Zwischenruhe den Teig flach ausrollen, die Bohnenpaste darauf legen und den Teig zu einer runden Form schließen.</li>
-                    <li>Den Teig flach drücken und mit einem Nudelholz in der Mitte kräftig drücken. Mit einer Schere sechs Schnitte in den Teig machen.</li>
-                    <li>Den Teig mit Abstand auf ein Backblech legen und für die zweite Gärung etwa 45 Minuten ruhen lassen.</li>
-                    <li>Nach der Gärung das zuvor aufbewahrte Ei mit etwas Wasser vermischen und den Teig damit bestreichen. Für die Dekoration können Sie Walnüsse, schwarze Sesamsamen oder andere Nüsse verwenden.</li>
-                    <li>Im vorgeheizten Ofen bei 190 Grad etwa 10 Minuten backen.</li>
-                    <li>Fertig sind die süßen Bohnenbrötchen (Danpatbbang)! Dort entstehen etwa 7-8 Brötchen.</li>
-                
-            </ol>
-   
-    </p>
+    <script>
+        function filterMenu() {
+            const input = document.getElementById('searchInput').value.toLowerCase();
+            const menuItems = document.getElementsByClassName('menu-card');
 
-    <div id="disqus_thread"></div>
-<script>
-    /**
-    *  RECOMMENDED CONFIGURATION VARIABLES: EDIT AND UNCOMMENT THE SECTION BELOW TO INSERT DYNAMIC VALUES FROM YOUR PLATFORM OR CMS.
-    *  LEARN WHY DEFINING THESE VARIABLES IS IMPORTANT: https://disqus.com/admin/universalcode/#configuration-variables    */
-    /*
-    var disqus_config = function () {
-    this.page.url = PAGE_URL;  // Replace PAGE_URL with your page's canonical URL variable
-    this.page.identifier = PAGE_IDENTIFIER; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
-    };
-    */
-    (function() { // DON'T EDIT BELOW THIS LINE
-    var d = document, s = d.createElement('script');
-    s.src = 'https://rezepte-2.disqus.com/embed.js';
-    s.setAttribute('data-timestamp', +new Date());
-    (d.head || d.body).appendChild(s);
-    })();
-</script>
-<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+            for (let i = 0; i < menuItems.length; i++) {
+                const itemText = menuItems[i].textContent.toLowerCase();
+                menuItems[i].style.display = itemText.includes(input) ? 'inline-block' : 'none';
+            }
+        
+            // Alle Menüelemente anzeigen, wenn das Eingabefeld leer ist
+            if (input === "") {
+                for (let i = 0; i < menuItems.length; i++) {
+                    menuItems[i].style.display = 'inline-block';
+                }
+            }
+        }
 
-  </body>
-  </html>
+
+        let currentIndex = 0;
+
+        function rotateMenu() {
+            const menuCards = document.querySelectorAll('.menu-card');
+            const totalCards = menuCards.length;
+            const itemsToShow = 3;
+
+            // Alle Karten ausblenden
+            menuCards.forEach(card => card.style.display = 'none');
+
+            // Die nächsten 3 Karten anzeigen
+            for (let i = 0; i < itemsToShow; i++) {
+                menuCards[(currentIndex + i) % totalCards].style.display = 'inline-block';
+            }
+
+            currentIndex = (currentIndex + itemsToShow) % totalCards; // Index erhöhen
+        }
+
+        // Initiale Einstellungen: Alle Karten ausblenden und die ersten 3 anzeigen
+        const menuCards = document.querySelectorAll('.menu-card');
+        menuCards.forEach((item, index) => {
+            item.style.display = index < 3 ? 'inline-block' : 'none'; // Die ersten 3 Elemente anzeigen
+        });
+
+        // 15 Sekunden Intervall für die Rotation
+        setInterval(rotateMenu, 15000);
+    </script>
+</body>
+</html>
